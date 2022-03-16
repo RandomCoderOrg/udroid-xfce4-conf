@@ -37,9 +37,9 @@ cp -r ./usr/share/backgrounds $BACKGROUND_DIR || {
 }
 
 shout "Installing local directories..."
-cp -r .local $HOME/.local "$LOCAL_DIR" || die "Failed to install local directories"
-cp -r .config $HOME/.config "$LOCAL_CONFIG" || die "Failed to install local directories"
-cp -r .config $HOME/.vnc "$LOCAL_VNC" || die "Failed to install local directories"
+cp -r .local "$LOCAL_DIR" || die "Failed to install local directories"
+cp -r .config "$LOCAL_CONFIG" || die "Failed to install local directories"
+cp -r .vnc "$LOCAL_VNC" || die "Failed to install local directories"
 
 if ((UID != 0)); then
     lshout "Trying to fix permissions to $user [$UID]"
