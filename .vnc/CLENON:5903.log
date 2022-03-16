@@ -1,0 +1,30 @@
+
+Xvnc TigerVNC 1.11.0 - built 2021-09-20 17:57
+Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Wed Mar 16 09:03:47 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5903
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'CLENON:3 (root)' on port 5903 for display :3.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /root/.vnc/passwd :3 to connect to the VNC server.
+(EE) Failed to open authorization file "/run/user/1000/gdm/Xauthority": No such file or directory
+
+Wed Mar 16 09:03:54 2022
+ Connections: accepted: 127.0.0.1::33270
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Wed Mar 16 09:03:58 2022
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+Wed Mar 16 09:03:59 2022
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+
+Wed Mar 16 09:04:02 2022
+ ComparingUpdateTracker: 3.93024 Mpixels in / 1.92 Mpixels out
+ ComparingUpdateTracker: (1:2.047 ratio)

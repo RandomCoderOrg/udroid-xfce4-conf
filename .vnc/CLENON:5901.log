@@ -1,0 +1,342 @@
+
+Xvnc TigerVNC 1.11.0 - built 2021-09-20 17:57
+Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Thu Dec 23 05:25:39 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'CLENON:1 (root)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /root/.vnc/passwd :1 to connect to the VNC server.
+
+Thu Dec 23 05:25:43 2021
+ Connections: accepted: 127.0.0.1::52842
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Dec 23 05:25:45 2021
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+
+Thu Dec 23 05:25:47 2021
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+
+Thu Dec 23 05:26:00 2021
+ ComparingUpdateTracker: 50 pixels in / 25 pixels out
+ ComparingUpdateTracker: (1:2 ratio)
+
+Thu Dec 23 05:33:25 2021
+ ComparingUpdateTracker: 286.831 Mpixels in / 27.6856 Mpixels out
+ ComparingUpdateTracker: (1:10.3603 ratio)
+
+Thu Dec 23 05:42:35 2021
+ ComparingUpdateTracker: 192.101 Mpixels in / 20.5898 Mpixels out
+ ComparingUpdateTracker: (1:9.32991 ratio)
+
+Thu Dec 23 05:45:28 2021
+ ComparingUpdateTracker: 15.6796 Mpixels in / 5.09754 Mpixels out
+ ComparingUpdateTracker: (1:3.07592 ratio)
+X connection to :1 broken (explicit kill or server shutdown).
+
+Thu Dec 23 06:49:38 2021
+ VNCSConnST:  closing 127.0.0.1::52842: Server shutdown
+ EncodeManager: Framebuffer updates: 9916
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 8 rects, 4.862 kpixels
+ EncodeManager:             128 B (1:152.688 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 6.482 krects, 25.6352 Mpixels
+ EncodeManager:            101.281 KiB (1:989.456 ratio)
+ EncodeManager:     Bitmap RLE: 1.193 krects, 356.69 kpixels
+ EncodeManager:                 35.2109 KiB (1:39.9677 ratio)
+ EncodeManager:     Indexed RLE: 18.43 krects, 10.4207 Mpixels
+ EncodeManager:                  3.42727 MiB (1:11.6602 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 18.808 krects, 108.601 Mpixels
+ EncodeManager:                  83.8825 MiB (1:4.94136 ratio)
+ EncodeManager:   Total: 44.921 krects, 145.018 Mpixels
+ EncodeManager:          87.4432 MiB (1:6.33227 ratio)
+ ComparingUpdateTracker: 709.882 Mpixels in / 43.4858 Mpixels out
+ ComparingUpdateTracker: (1:16.3244 ratio)
+The Xtigervnc server cleanly exited!
+Killing Xtigervnc process ID 880... success!
+
+Xvnc TigerVNC 1.11.0 - built 2021-09-20 17:57
+Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Fri Dec 24 07:17:54 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'CLENON:1 (root)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /root/.vnc/passwd :1 to connect to the VNC server.
+
+Fri Dec 24 07:18:04 2021
+ Connections: accepted: 127.0.0.1::36172
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ RandomStream: no OS supplied random source - using rand()
+/etc/X11/Xtigervnc-session: 1717920815: cannot open /dev/null: No such file
+
+Fri Dec 24 07:18:06 2021
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+
+Fri Dec 24 07:18:13 2021
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+
+Fri Dec 24 07:18:28 2021
+ VNCSConnST:  closing 127.0.0.1::36172: Server shutdown
+ EncodeManager: Framebuffer updates: 3
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 2 rects, 2.51935 Mpixels
+ EncodeManager:            32 B (1:314919 ratio)
+ EncodeManager:   Total: 2 rects, 2.51935 Mpixels
+ EncodeManager:          32 B (1:314919 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+Killing Xtigervnc process ID 21402... which seems to be deadlocked. Using SIGKILL!
+The Xtigervnc server died with signal 9!
+
+Xvnc TigerVNC 1.11.0 - built 2021-09-20 17:57
+Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Fri Dec 24 07:18:55 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'CLENON:1 (root)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /root/.vnc/passwd :1 to connect to the VNC server.
+X connection to :1 broken (explicit kill or server shutdown).
+
+Fri Dec 24 07:19:04 2021
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+The Xtigervnc server cleanly exited!
+Killing Xtigervnc process ID 23234... success!
+
+Xvnc TigerVNC 1.11.0 - built 2021-09-20 17:57
+Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Fri Dec 24 07:19:56 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'CLENON:1 (root)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /root/.vnc/passwd :1 to connect to the VNC server.
+
+Fri Dec 24 07:19:59 2021
+ Connections: accepted: 127.0.0.1::36174
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ RandomStream: no OS supplied random source - using rand()
+
+Fri Dec 24 07:20:01 2021
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+X connection to :1 broken (explicit kill or server shutdown).
+
+Fri Dec 24 07:20:06 2021
+ VNCSConnST:  closing 127.0.0.1::36174: Server shutdown
+ EncodeManager: Framebuffer updates: 2
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 5 rects, 1.28276 Mpixels
+ EncodeManager:            80 B (1:64138.9 ratio)
+ EncodeManager:     Indexed RLE: 2 rects, 18.536 kpixels
+ EncodeManager:                  1.27148 KiB (1:56.9647 ratio)
+ EncodeManager:   Total: 7 rects, 1.3013 Mpixels
+ EncodeManager:          1.34961 KiB (1:3766.49 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+The Xtigervnc server cleanly exited!
+Killing Xtigervnc process ID 24841... success!
+
+Xvnc TigerVNC 1.11.0 - built 2021-09-20 17:57
+Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Fri Dec 24 07:21:43 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'CLENON:1 (root)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /root/.vnc/passwd :1 to connect to the VNC server.
+
+Fri Dec 24 07:21:48 2021
+ Connections: accepted: 127.0.0.1::36178
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ RandomStream: no OS supplied random source - using rand()
+
+Fri Dec 24 07:21:49 2021
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+X connection to :1 broken (explicit kill or server shutdown).
+
+Fri Dec 24 07:21:53 2021
+ VNCSConnST:  closing 127.0.0.1::36178: Server shutdown
+ EncodeManager: Framebuffer updates: 2
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 5 rects, 1.28276 Mpixels
+ EncodeManager:            80 B (1:64138.9 ratio)
+ EncodeManager:     Indexed RLE: 2 rects, 18.536 kpixels
+ EncodeManager:                  1.27148 KiB (1:56.9647 ratio)
+ EncodeManager:   Total: 7 rects, 1.3013 Mpixels
+ EncodeManager:          1.34961 KiB (1:3766.49 ratio)
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+The Xtigervnc server cleanly exited!
+Killing Xtigervnc process ID 27594... success!
+
+Xvnc TigerVNC 1.11.0 - built 2021-09-20 17:57
+Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Fri Dec 24 07:24:02 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'CLENON:1 (root)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /root/.vnc/passwd :1 to connect to the VNC server.
+A vncserver lock is found for port 1
+Use [1;32mudroid stoptvnc[0m or [1;32mstopvnc[0m to stop it and try again...
+
+Fri Dec 24 07:24:03 2021
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+
+Xvnc TigerVNC 1.11.0 - built 2021-09-20 17:57
+Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Fri Dec 24 07:26:07 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'CLENON:1 (root)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /root/.vnc/passwd :1 to connect to the VNC server.
+
+Fri Dec 24 07:26:08 2021
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+dbus[976]: Failed to start message bus: Failed to generate UUID: Could not open /dev/urandom: No such file or directory
+EOF in dbus-launch reading address from bus daemon
+
+Xvnc TigerVNC 1.11.0 - built 2021-09-20 17:57
+Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Fri Dec 24 07:27:53 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'CLENON:1 (root)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /root/.vnc/passwd :1 to connect to the VNC server.
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+/usr/bin/startxfce4: X server already running on display :1
+/usr/bin/xrdb: Connection refused
+/usr/bin/xrdb: Can't open display ':1'
+dbus-update-activation-environment: error: unable to connect to D-Bus: Failed to connect to socket /tmp/dbus-EwSSEdmqZ3: Connection refused
+Unable to init server: Could not connect: Connection refused
+xfce4-session: Cannot open display: .
+Type 'xfce4-session --help' for usage.
+
+Xvnc TigerVNC 1.11.0 - built 2021-09-20 17:57
+Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12013000, The X.Org Foundation
+
+
+Fri Dec 24 07:28:06 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'CLENON:1 (root)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /root/.vnc/passwd :1 to connect to the VNC server.
+
+Fri Dec 24 07:28:09 2021
+ Connections: accepted: 127.0.0.1::36192
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Dec 24 07:28:11 2021
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+
+Fri Dec 24 07:28:30 2021
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+
+Fri Dec 24 07:28:38 2021
+ ComparingUpdateTracker: 1.20109 Mpixels in / 600.544 kpixels out
+ ComparingUpdateTracker: (1:2 ratio)
+
+Fri Dec 24 07:28:53 2021
+ ComparingUpdateTracker: 4.06623 Mpixels in / 994.746 kpixels out
+ ComparingUpdateTracker: (1:4.08771 ratio)
+
+Fri Dec 24 07:28:55 2021
+ ComparingUpdateTracker: 2.45874 Mpixels in / 1.24069 Mpixels out
+ ComparingUpdateTracker: (1:1.98175 ratio)
+
+Fri Dec 24 07:28:58 2021
+ ComparingUpdateTracker: 14.1174 Mpixels in / 1.86888 Mpixels out
+ ComparingUpdateTracker: (1:7.55395 ratio)
+
+Fri Dec 24 07:29:20 2021
+ VNCSConnST:  closing 127.0.0.1::36192: Clean disconnection
+ EncodeManager: Framebuffer updates: 424
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 3 rects, 78 pixels
+ EncodeManager:             48 B (1:7.25 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 567 rects, 13.2331 Mpixels
+ EncodeManager:            8.85938 KiB (1:5835.47 ratio)
+ EncodeManager:     Bitmap RLE: 30 rects, 18.68 kpixels
+ EncodeManager:                 916 B (1:81.9651 ratio)
+ EncodeManager:     Indexed RLE: 969 rects, 473.113 kpixels
+ EncodeManager:                  209.598 KiB (1:8.87154 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 1.642 krects, 12.666 Mpixels
+ EncodeManager:                  6.8721 MiB (1:7.03364 ratio)
+ EncodeManager:   Total: 3.211 krects, 26.391 Mpixels
+ EncodeManager:          7.08635 MiB (1:14.2119 ratio)
+ TcpSocket:   unable to get peer name for socket
+ Connections: closed: ::0
+ ComparingUpdateTracker: 75.3857 Mpixels in / 11.865 Mpixels out
+ ComparingUpdateTracker: (1:6.35363 ratio)
+X connection to :1 broken (explicit kill or server shutdown).
+
+Fri Dec 24 07:35:00 2021
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+The Xtigervnc server cleanly exited!
+tigervncserver: No matching VNC server running for this user!
