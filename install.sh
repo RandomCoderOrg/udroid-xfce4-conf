@@ -16,6 +16,11 @@ ICONS_DIR="/usr/share/icons"
 THEME_DIR="/usr/share/themes"
 BACKGROUND_DIR="/usr/share/backgrounds"
 
+# USER DIR
+LOCAL_DIR="$HOME/.local"
+LOCAL_CONFIG="$HOME/.config"
+LOCAL_VNC="$HOME/.vnc"
+
 echo -e "${_c_magneta}UDROID XFCE4${RST}"
 
 shout "Installing icons..."
@@ -30,6 +35,11 @@ shout "Installing backgrounds..."
 cp -r ./usr/share/backgrounds $BACKGROUND_DIR || {
     die "Failed to install backgrounds"
 }
+
+shout "Installing local directories..."
+cp .local $HOME/.local "$LOCAL_DIR" || die "Failed to install local directories"
+cp .config $HOME/.config "$LOCAL_CONFIG" || die "Failed to install local directories"
+cp .config $HOME/.vnc "$LOCAL_VNC" || die "Failed to install local directories"
 
 if ((UID != 0)); then
     lshout "Trying to fix permissions to $user [$UID]"
