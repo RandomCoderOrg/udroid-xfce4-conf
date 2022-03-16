@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=udroid-xfsmooth-dark
+Comment=A MacOS BigSur like Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=udroid-xfsmooth-dark
+MetacityTheme=udroid-xfsmooth-dark
+IconTheme=udroid-xfsmooth-dark
+CursorTheme=WhiteSur-cursors
+ButtonLayout=close,minimize,maximize:menu
+
