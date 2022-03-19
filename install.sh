@@ -24,22 +24,22 @@ LOCAL_VNC="$HOME/.vnc"
 echo -e "${_c_magneta}UDROID XFCE4${RST}"
 
 shout "Installing icons..."
-cp -r ./usr/share/icons $ICONS_DIR || {
+cp -r ./usr/share/icons/* $ICONS_DIR || {
     die "Failed to install icons"
 }
 shout "Installing themes..."
-cp -r ./usr/share/themes $THEME_DIR || {
+cp -r ./usr/share/themes/* $THEME_DIR || {
     die "Failed to install themes"
 }
 shout "Installing backgrounds..."
-cp -r ./usr/share/backgrounds $BACKGROUND_DIR || {
+cp -r ./usr/share/backgrounds/* $BACKGROUND_DIR || {
     die "Failed to install backgrounds"
 }
 
 shout "Installing local directories..."
-cp -r .local "$LOCAL_DIR" || die "Failed to install local directories"
-cp -r .config "$LOCAL_CONFIG" || die "Failed to install local directories"
-cp -r .vnc "$LOCAL_VNC" || die "Failed to install local directories"
+cp -r .local/* "$LOCAL_DIR" || die "Failed to install local directories"
+cp -r .config/* "$LOCAL_CONFIG" || die "Failed to install local directories"
+cp -r .vnc/* "$LOCAL_VNC" || die "Failed to install local directories"
 
 if ((UID != 0)); then
     lshout "Trying to fix permissions to $user [$UID]"
