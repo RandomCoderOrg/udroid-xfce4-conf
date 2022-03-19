@@ -52,7 +52,7 @@ cp -r .vnc/* "$LOCAL_VNC" || die "Failed to install local directories"
 
 if ((UID != 0)); then
     lshout "Trying to fix permissions to $user [$UID]"
-    chown -Rv "$user":"$user" .* || {
+    sudo chown -Rv "$user":"$user" .* || {
     lwarn "Failed to chown"
     }
 fi
