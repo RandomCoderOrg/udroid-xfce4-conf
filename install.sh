@@ -37,9 +37,10 @@ cp -r ./usr/share/backgrounds/* $BACKGROUND_DIR || {
 }
 
 shout "Installing local directories..."
-cp -r .local/* "$LOCAL_DIR" || die "Failed to install local directories"
-cp -r .config/* "$LOCAL_CONFIG" || die "Failed to install local directories"
-cp -r .vnc/* "$LOCAL_VNC" || die "Failed to install local directories"
+cp -r .local "$LOCAL_DIR" || die "Failed to install local directories"
+cp -r .config "$LOCAL_CONFIG" || die "Failed to install local directories"
+cp -r .vnc "$LOCAL_VNC" || die "Failed to install local directories"
+
 # add user dirs
 [[ ! -d ~/Desktop ]] && mkdir ~/Desktop
 [[ ! -d ~/Download ]] && mkdir ~/Download
@@ -50,9 +51,8 @@ cp -r .vnc/* "$LOCAL_VNC" || die "Failed to install local directories"
 [[ ! -d ~/Pictutes ]] && mkdir ~/Pictutes
 [[ ! -d ~/Videos ]] && mkdir ~/Videos
 
-if ((UID != 0)); then
-    lshout "Trying to fix permissions to $user [$UID]"
-    sudo chown -Rv "$user":"$user" .* || {
-    lwarn "Failed to chown"
-    }
-fi
+chown -Rv $USER:$USER .config
+chown -Rv $USER:$USER .local
+chown -Rv $USER:$USER .vnc
+
+chmod +x .vnc/xstartup
