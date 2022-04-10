@@ -41,14 +41,14 @@ cp -r .local/* "$LOCAL_DIR" || die "Failed to install local directories"
 cp -r .config/* "$LOCAL_CONFIG" || die "Failed to install local directories"
 cp -r .vnc/* "$LOCAL_VNC" || die "Failed to install local directories"
 # add user dirs
-[[ -d ~/Desktop ]] && mkdir ~/Desktop
-[[ -d ~/Download ]] && mkdir ~/Download
-[[ -d ~/Templates ]] && mkdir ~/Templates
-[[ -d ~/public ]] && mkdir ~/public
-[[ -d ~/Documents ]] && mkdir ~/Documents
-[[ -d ~/Music ]] && mkdir ~/Music
-[[ -d ~/Pictutes ]] && mkdir ~/Pictutes
-[[ -d ~/Videos ]] && mkdir ~/Videos
+[[ ! -d ~/Desktop ]] && mkdir ~/Desktop
+[[ ! -d ~/Download ]] && mkdir ~/Download
+[[ ! -d ~/Templates ]] && mkdir ~/Templates
+[[ ! -d ~/public ]] && mkdir ~/public
+[[ ! -d ~/Documents ]] && mkdir ~/Documents
+[[ ! -d ~/Music ]] && mkdir ~/Music
+[[ ! -d ~/Pictutes ]] && mkdir ~/Pictutes
+[[ ! -d ~/Videos ]] && mkdir ~/Videos
 
 if ((UID != 0)); then
     lshout "Trying to fix permissions to $user [$UID]"
